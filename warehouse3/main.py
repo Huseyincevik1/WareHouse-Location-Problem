@@ -121,7 +121,8 @@ def main(data):
     greedy()
     tasi()
     dataLast = str(Hesapla()) + " \n"
-    dataLast += " ".join(list(map(str, listeFormat())))
+    # en düşük değeri ve atanan depoları döndürmek.
+    dataLast += " ".join(list(map(str, listeFormat()))) 
     return dataLast
 
 
